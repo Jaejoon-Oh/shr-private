@@ -16,7 +16,7 @@
 #include <stdio.h>
 #include <intrinsics.h>
 
-#define DATATYPE float //uint16_t
+#define DATATYPE uint16_t
 
 DATATYPE math_sum(DATATYPE a, DATATYPE b);
 DATATYPE math_mul(DATATYPE a, DATATYPE b);

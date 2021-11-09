@@ -22,10 +22,10 @@ int main()
   debug_log("Component B!\r\n");
 
   sum = math_sum(x, y);
-  debug_log("Sum = %f\r\n", sum);
+  debug_log("Sum = %d\r\n", sum);
 
   mul = math_mul(sum, z);
-  debug_log("Mul = %f\r\n", mul);
+  debug_log("Mul = %d\r\n", mul);
 
   debug_log("Finished Execution!\r\n");
 
